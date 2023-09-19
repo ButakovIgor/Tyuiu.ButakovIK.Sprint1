@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.ButakovIK.Sprint1.Task0.V3.Lib;
 
-
+//Написать программу, которая вычисляет выражение (6/2*3)/9 и печатает результат на экране.
 
 namespace Tyuiu.ButakovIK.Sprint1.Task0.V3
 {
