@@ -11,7 +11,7 @@ namespace Tyuiu.ButakovIK.Sprint1.Task1.V10.Lib
     {
         public double Calculate(double x, double y)
         {
-            return (x + y) / (1 + x) - 3;
+            return (x + y) / (1 + x);
         }
     }
 }

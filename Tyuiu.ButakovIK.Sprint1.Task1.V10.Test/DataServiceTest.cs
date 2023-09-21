@@ -14,7 +14,7 @@ namespace Tyuiu.ButakovIK.Sprint1.Task1.V10.Test
             double x = 3.0;
             double y = 1.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(-2, res);
+            Assert.AreEqual(1, res);
         }
     }
 }
