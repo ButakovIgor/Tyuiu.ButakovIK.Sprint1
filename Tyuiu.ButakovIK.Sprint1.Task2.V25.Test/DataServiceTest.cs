@@ -11,9 +11,9 @@ namespace Tyuiu.ButakovIK.Sprint1.Task2.V25.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int rads = 2;
-            double res = ds.ConvertRadsToDegrees(rads);
-            Assert.AreEqual(114.592, Math.Round(res,3));
+            int radians = 6;
+            double res = ds.ConvertRadsToDegrees(radians);
+            Assert.AreEqual(343.775, Math.Round(res,3));
         }
     }
 }

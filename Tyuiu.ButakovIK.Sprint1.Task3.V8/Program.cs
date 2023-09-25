@@ -47,11 +47,9 @@ namespace Tyuiu.ButakovIK.Sprint1.Task3.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                *");
             Console.WriteLine("*****************************************************************************");
 
-            double income = ds.IncomeAmount(startAmount, percent, timeDays);
-            double profit = Math.Round(income  - startAmount,2);
+            double profit = ds.IncomeAmount(startAmount, percent, timeDays);
 
             Console.WriteLine("Доход: " + profit);
-            Console.WriteLine("Сумма по окончании срока вклада: " + income);
             Console.ReadLine();
         }
     }

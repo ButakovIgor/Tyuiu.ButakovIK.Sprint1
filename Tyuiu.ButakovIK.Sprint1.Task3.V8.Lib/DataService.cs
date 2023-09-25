@@ -13,7 +13,7 @@ namespace Tyuiu.ButakovIK.Sprint1.Task3.V8.Lib
         {
             double koeff = timeDays / 365;
             double profit = startAmount * percent / 100 * koeff;
-            return Math.Round(startAmount + profit,2);
+            return Math.Round(profit,3);
         }
     }
 }

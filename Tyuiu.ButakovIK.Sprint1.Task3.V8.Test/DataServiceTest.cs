@@ -11,8 +11,8 @@ namespace Tyuiu.ButakovIK.Sprint1.Task3.V8.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double res = ds.IncomeAmount(2500,20,30);
-            Assert.AreEqual(2541.10, Math.Round(res, 2));
+            double res = ds.IncomeAmount(5000,10,40);
+            Assert.AreEqual(54.795, Math.Round(res, 3));
         }
     }
 }

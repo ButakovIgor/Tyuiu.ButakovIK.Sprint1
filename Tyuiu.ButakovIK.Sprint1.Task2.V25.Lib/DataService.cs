@@ -12,7 +12,9 @@ namespace Tyuiu.ButakovIK.Sprint1.Task2.V25.Lib
     {
         public double ConvertRadsToDegrees(int radians)
         {
-            return radians * (180 / Math.PI);
+            
+            return Math.Round(radians * (180 / Math.PI),3);
+            
         }
     }
 
